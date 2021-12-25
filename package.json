@@ -1,0 +1,33 @@
+{
+  "name": "graph-ql-api",
+  "version": "1.0.0",
+  "description": "lecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "hi",
+    "start": "nodemon --exec ./node_modules/.bin/babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DwarfThema/graph-ql-api.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DwarfThema/graph-ql-api/issues"
+  },
+  "homepage": "https://github.com/DwarfThema/graph-ql-api#readme",
+  "dependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.5"
+  }
+}
